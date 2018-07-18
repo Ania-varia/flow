@@ -1,6 +1,6 @@
 find_RR_dates <- function(whole_dt, param, by_sex=FALSE, min_ind=70){
   require(data.table)
-  #whole_dt  data frame/data.table with columns "Assay_Date", "Gender", param, "Genotype", KO and WT
+  #whole_dt  data frame/data.table with columns "Assay_Date", "Gender", param, "Genotype"; contains both KO and WT
   #by_sex= whether to split by sex when determining controls 
   #min_ind - how many controls individuals
   #param - on which parameter to base control finding
