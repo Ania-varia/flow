@@ -6,9 +6,9 @@ require(readr)
 
 ######################INPUT FILES' locations
 
-file_with_hits <- "~/Documents/3i/EBI_data_transition/for_headline_images/BM/BM_hits_IMPC_ML_080618.csv"
-file_with_Events_Proportions <- "~/Documents/3i/data_from_Ryan/ver0917/BM/BM_Events_Proportions_Table_050917.csv"
-file_with_LMnumbers_map <-"/Users/lorenca/Documents/3i/data_from_Ryan/ver0917/BM_paper_processing/BM_LMmap.csv"  
+file_with_hits <- "PATH_TO/BM_hits_IMPC_ML_080618.csv"
+file_with_Events_Proportions <- "PATH_TO/BM_Events_Proportions_Table_050917.csv"
+file_with_LMnumbers_map <-"PATH_TO/BM_LMmap.csv"  
 
 
 ######################FUNCTIONS 
